@@ -24,5 +24,7 @@ Output
 12
 
 It will take 4 bytes each but will take only 1 byte for "char" datatype
+We have written lu because we needed unigned int value . it was showing error while writting %d.
+
 
 
