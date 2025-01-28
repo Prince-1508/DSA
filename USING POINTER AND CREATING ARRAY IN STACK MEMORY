@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int A[5]={2,4,6,8,10};
+    int *p;
+    p=A;
+    for(int i=0;i<5;i++)
+    {
+        cout<<A[i]<<endl;
+    }
+    return 0;
+}
+
+Output
+2
+4
+6
+8
+10
+
+Note: if we have used 
+
+  cout<<p[i]<<endl; 
+then also our output would be same.
+
+
+
+
+
+
+
