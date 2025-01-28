@@ -1,0 +1,26 @@
+#include<iostream>
+#include<stdio.h>
+#include<conio.h>
+using namespace std;
+
+struct Rectangle
+{
+	int length;
+	int breadth;
+	char x;
+};
+
+int main()
+{
+	struct Rectangle r1= {10,5};
+	
+   cout<<r1.length<<endl;
+   cout<<r1.breadth<<endl;
+   
+	return 0;
+}
+
+OUTPUT
+10
+5
+
