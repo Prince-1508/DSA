@@ -1,0 +1,29 @@
+CALL BY REFERENCE (PARAMETER PASSING)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void swap(int &x,int &y)
+{
+    int temp;
+    temp=x;
+    x=y;
+    y=temp;
+}
+
+int main()
+{
+    int num1,num2;
+    num1=20;
+    num2=10;
+    swap(num1,num2);
+    cout<<"After Swap \n"<<num1<<endl<<num2<<endl;
+    
+    return 0;
+}
+
+
+
+OUTPUT :- After Swap 
+10
+20
