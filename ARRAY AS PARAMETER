@@ -1,0 +1,48 @@
+/**********     ARRAY AS PARAMETER    *************/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void fun(int A[])
+{
+    for(int i=0;i<5;i++)
+    {
+        cout<<A[i]<<endl;
+    }
+}
+
+int main()
+{
+    int Arr[]={2,4,6,8,10};
+    int n=5;
+    
+    fun(Arr);
+    
+    for(int x:Arr)
+    cout<<x<<" ";
+    return 0;
+}
+
+Output:-
+
+2
+4
+6
+8
+10
+2 4 6 8 10
+
+NOTE: - FOR-EACH LOOP WILL NOT WORK IN POINTER ARRAY PARAMETER
+MEANS:
+
+void fun(int A[])
+{
+for(int x:A)
+cout<<x<<" ";
+}
+
+You Cannot use for(int x:A)
+
+
+
+
