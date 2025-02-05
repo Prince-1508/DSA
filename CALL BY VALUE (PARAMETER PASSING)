@@ -22,8 +22,8 @@ int main()
     return 0;
 }
 
-OUTPUT: 20
-        10
+OUTPUT: 10
+        20
 
 
 
