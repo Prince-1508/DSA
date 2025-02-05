@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void fun(int A[])
+{
+    A[0]=15;
+}
+
+int main()
+{
+    int Arr[]={2,4,6,8,10};
+    int n=5;
+    
+    fun(Arr);
+    
+    for(int x:Arr)
+    cout<<x<<" ";
+    return 0;
+}
+
+Output: 15 4 6 8 10
